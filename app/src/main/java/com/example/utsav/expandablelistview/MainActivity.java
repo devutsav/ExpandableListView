@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         exp.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                Toast.makeText(MainActivity.this, Movies_category.get(movies_list.get(groupPosition)).get(childPosition) +"from category"+ movies_list.get(groupPosition) + "selected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, Movies_category.get(movies_list.get(groupPosition)).get(childPosition) +" from category "+ movies_list.get(groupPosition) + " is selected ", Toast.LENGTH_SHORT).show();
                 return false;
             } 
         });
