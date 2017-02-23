@@ -92,6 +92,7 @@ public class MoviesAdaptor extends BaseExpandableListAdapter {
 
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
-        return false;
+
+        return true;
     }
 }
